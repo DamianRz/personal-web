@@ -2,11 +2,19 @@
 
 @media only screen and (max-width: $size-sm) {
 
-    .right-content {
-        bottom: 160px;
+    .card-banner {
+        top: 0px;
 
-        p {
-            font-size: 20px !important;
+        .right-content {
+            margin-top: 50px !important;
+        }
+
+        .right-content {
+            bottom: 160px;
+
+            p {
+                font-size: 20px !important;
+            }
         }
     }
 }
