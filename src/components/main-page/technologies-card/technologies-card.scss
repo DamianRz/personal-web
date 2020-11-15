@@ -1,0 +1,37 @@
+@import '../../../theme/colors.scss';
+@import '../../../theme/screen-size.scss';
+
+.technology-divider {
+
+  .technologies-card {
+    text-align: center;
+    top: 60px;
+    z-index: 1;
+
+    .technology-item {
+      position: relative;
+      width: 250px;
+      margin: 0;
+      display: inline-table;
+      text-align: center;
+
+      .tech-button {
+        svg {
+          margin: auto;
+          width: calc(#{$toolbar-height} + 20px) !important;
+          height: calc(#{$toolbar-height} + 20px) !important;
+        }
+      }
+
+      .technology-name {
+        margin-bottom: 20px;
+      }
+
+      .technology-url {
+        position: absolute;
+        bottom: 0px;
+        margin-left: 40%;
+      }
+    }
+  }
+}

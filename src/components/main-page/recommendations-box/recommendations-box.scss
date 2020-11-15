@@ -1,0 +1,35 @@
+.recommendations-card {
+    .recommendation {
+        .pic-box {
+            position: relative;
+            top: 20px;
+            margin: auto;
+            width: max-content;
+            height: max-content;
+
+            .pic {
+                position: relative;
+                width: 100px;
+                height: 100px;
+                margin: auto;
+                border-radius: 50%;
+            }
+
+            .circle {
+                position: absolute;
+                left: -9px;
+                top: -9px;
+            }
+
+        }
+
+        .name {
+            margin: 30px 0;
+
+        }
+
+        .review {
+            margin: 0 20vw;
+        }
+    }
+}

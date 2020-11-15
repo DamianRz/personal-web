@@ -1,0 +1,9 @@
+@import '../../../theme/screen-size.scss';
+
+@media only screen and (max-width: $size-xs) {
+    .social-text {
+        // hidde unnecesary socials information
+        position: absolute;
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,27 @@
+@import '../../../theme/screen-size.scss';
+@import '../../../theme/colors.scss';
+
+.vertical-toolbar {
+    position: relative;
+    width: $toolbar-height;
+    border-color: $warm-color;
+    border-left-style: solid;
+    text-align: center;
+    border-width: 1px;
+
+    .icon-box {
+        color: white;
+        width: 100%;
+        height: $toolbar-height;
+        margin-bottom: 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+
+        svg {
+            margin: auto;
+            width: calc(#{$toolbar-height}) !important;
+            height: calc(#{$toolbar-height}) !important;
+        }
+    }
+}

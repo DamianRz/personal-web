@@ -1,0 +1,199 @@
+@import '../../theme/colors.scss';
+@import '../../theme/fonts.scss';
+
+@mixin icon {
+  svg {
+    margin-right: 10px;
+  }
+}
+
+.button {
+  .button-holder {
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+
+    .button-content {
+      display: flex;
+      align-items: center;
+    }
+
+    button {
+      outline: none;
+      padding: 8px 10px;
+      transition: box-shadow .3s;
+      border-radius: 4px;
+      border-style: none;
+      display: flex !important;
+
+      .button-content {
+        width: 100%;
+        display: flex;
+      }
+    }
+
+    .label_button {
+      margin: 0;
+    }
+
+    .icon-box {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+    }
+
+
+
+    button:hover {
+      cursor: pointer;
+    }
+
+
+  }
+
+  .disabled {
+    opacity: 0.2;
+
+    button:hover {
+      cursor: initial !important;
+    }
+  }
+}
+
+// styles
+.button.normal {
+  button {
+    height: 33px;
+    border-style: solid !important;
+    border-width: 1px;
+    background: $warm-color;
+    display: flex;
+    align-items: center;
+
+    .label_button {
+      text-transform: uppercase;
+    }
+
+    .icon-box {
+      @include icon;
+
+      svg {
+        color: white;
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    p {
+      display: flex;
+      align-items: center;
+      color: white;
+    }
+  }
+
+  button:hover {
+    background: $p_dark !important;
+    transition: all ease 0.9s;
+    border-color: $cool-color;
+
+    p {
+      color: $cool-color;
+    }
+  }
+}
+
+.button.text {
+  button {
+    background: rgba(0, 0, 0, 0);
+
+    p {
+      color: rgb(165, 165, 165);
+    }
+
+    .icon-box {
+      @include icon;
+
+      svg {
+        color: $warm-color;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+
+  button:hover {
+    p {
+      color: $cool-color;
+    }
+
+    .icon-box {
+      svg {
+        color: $cool-color;
+      }
+    }
+  }
+
+  .theme-icon {
+    color: white;
+  }
+}
+
+.button.text:hover {
+  .theme-icon {
+    color: $cool-color;
+  }
+}
+
+.button.outlined {
+  button {
+    height: 33px;
+    border-style: solid !important;
+    border-width: 1px;
+    border-color: $cool-color !important;
+    background: rgba(0, 0, 0, 0) !important;
+    display: flex;
+    align-items: center;
+
+    .icon-box {
+      @include icon;
+
+      svg {
+        color: $warm-color;
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    p {
+      display: flex;
+      align-items: center;
+      color: rgb(165, 165, 165);
+    }
+  }
+
+  button:hover {
+    background: rgb(146, 144, 108) !important;
+    transition: all ease 0.9s;
+
+    p {
+      color: white;
+    }
+
+    .icon {
+      color: white !important;
+    }
+  }
+}
+
+.button.outlined:hover {
+  .icon-box {
+    svg {
+      color: white;
+    }
+  }
+
+  .theme-icon {
+    color: white;
+  }
+}

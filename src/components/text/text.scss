@@ -1,0 +1,65 @@
+@import '../../theme/colors.scss';
+@import '../../theme/fonts.scss';
+@import '../../theme/effects.scss';
+
+.dmz-text {
+    padding: 0;
+    margin: 0;
+    // betther lecture
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    text-rendering: optimizelegibility !important;
+    letter-spacing: .03em;
+    @include effect-appear(3s);
+}
+
+.theme-big {
+    font-size: calc(#{$f1} + 2vw);
+    color: $secondary;
+    // text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+}
+
+.theme-title {
+    font-size: calc(#{$f1} + .1vw);
+    color: $secondary;
+    // text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+}
+
+.theme-subtitle {
+    font-size: calc(#{$f3} + .1vw);
+    color: $secondary;
+    // text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+}
+
+.theme-text {
+    font-size: calc(#{$f5} + .4vw);
+}
+
+.theme-small {
+    font-size: calc(#{$f6} + .4vw);
+}
+
+.theme-text.dark,
+.theme-small.dark {
+    color: $text_light;
+}
+
+.theme-text.light,
+.theme-small.light {
+    color: $text_dark;
+    // text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.425);
+}
+
+.primary {
+    color: $cool-color !important;
+}
+
+.secondary {
+    color: $warm-color !important;
+}
+
+.glitch {
+    // @include textGlitch("title", 1, white, rgba(0, 0, 0, 0), red, blue, 450, 115);
+
+}

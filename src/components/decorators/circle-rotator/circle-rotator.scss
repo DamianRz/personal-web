@@ -1,0 +1,27 @@
+@import '../../../theme/colors.scss';
+@import '../../../theme/effects.scss';
+
+.circle-rotator {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: $cool-color;
+    border-style: dotted;
+    z-index: 1;
+    opacity: .5;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+    @include effect-rotate(8s, infinite, 0s);
+
+    // ORBITAL THING
+    .orbital-thing-0 {
+        position: absolute;
+        top: -40px;
+        left: 38%;
+    }
+}
+
+.circular-box {
+    position: relative;
+    width: max-content;
+    height: max-content;
+}

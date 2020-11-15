@@ -1,0 +1,80 @@
+export const services = [
+    {
+        workId: 1,
+        name: 'Degradé',
+        img: '',
+        cost: 290,
+    },
+    {
+        workId: 2,
+        name: 'Degrade & barba',
+        img: '',
+        cost: 390,
+    },
+    {
+        workId: 3,
+        name: 'Degrade & cejas',
+        img: '',
+        cost: 350,
+    },
+    {
+        workId: 4,
+        name: 'Clasico',
+        img: '',
+        cost: 280,
+    },
+    {
+        workId: 5,
+        name: 'Cejas',
+        img: '',
+        cost: 80,
+    },
+    {
+        workId: 6,
+        name: 'Barba',
+        img: '',
+        cost: 130,
+    },
+    {
+        workId: 7,
+        name: 'Corte & Black Mask',
+        img: '',
+        cost: 530,
+    },
+    {
+        workId: 8,
+        name: 'Black Mask',
+        img: '',
+        cost: 300,
+    },
+    {
+        workId: 9,
+        name: 'Platinado',
+        img: '',
+        cost: 1450,
+    },
+    {
+        workId: 10,
+        name: 'Mechas rubias',
+        img: '',
+        cost: 1000,
+    },
+    {
+        workId: 11,
+        name: 'Mechas grises, blancas',
+        img: '',
+        cost: 1100,
+    },
+    {
+        workId: 12,
+        name: 'Colores fantasia',
+        img: '',
+        cost: 900,
+    },
+    {
+        workId: 13,
+        name: 'Franjas fantasia',
+        img: '',
+        cost: 700,
+    },
+];

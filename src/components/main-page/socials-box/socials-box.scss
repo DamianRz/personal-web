@@ -1,0 +1,11 @@
+@import '../../../theme/effects.scss';
+
+.socials-box {
+    @include effect-slide(left, 40px, 2s);
+
+    .vertical-toolbar {
+        .button {
+            @include effect-appear(3s);
+        }
+    }
+}

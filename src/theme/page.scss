@@ -1,0 +1,11 @@
+@import './colors.scss';
+
+.page-dark {
+    background-color: $p_dark;
+    background: radial-gradient(circle, rgba(14, 14, 14, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.page-light {
+    background-color: $p_light;
+    background: linear-gradient(90deg, rgba(183, 0, 191, 0.958420868347339) 0%, rgba(0, 73, 255, 0.8323704481792717) 100%);
+}

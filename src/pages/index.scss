@@ -1,0 +1,66 @@
+@import '../theme/colors.scss';
+@import '../theme/screen-size.scss';
+
+.index-page {
+  position: absolute;
+  padding-top: $toolbar-height;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  // SOCIALS BOX 
+  .socials-box {
+    position: fixed;
+    z-index: 3;
+    width: max-content;
+    height: max-content;
+    display: flex;
+
+    .social-text {
+      display: flex;
+      align-items: center;
+      width: 60px;
+
+      p {
+        position: relative;
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+
+  .circles-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    // background-image: url("https://i.ibb.co/SNNjhd7/por-que-razon-descargaste-esta-imagen-en-tu-pc.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // opacity: .5;
+    display: flex;
+    align-items: center;
+
+    .cube {
+      position: relative;
+      width: 30%;
+      height: 100%;
+      background-color: $warm-color;
+      margin: auto;
+      // border-radius: 50%;
+    }
+
+    .circle {
+      position: relative;
+      width: 20vw;
+      height: 20vw;
+      background-color: green;
+      margin: auto;
+      border-radius: 50%;
+    }
+  }
+
+
+
+}

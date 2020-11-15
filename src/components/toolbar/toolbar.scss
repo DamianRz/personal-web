@@ -1,0 +1,62 @@
+@import '../../theme/colors.scss';
+@import '../../theme/screen-size.scss';
+@import '../../theme/effects.scss';
+
+
+// ANCHORS
+#start_page {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+
+.toolbar {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: $toolbar-height;
+  // background-color: $shadow-dark;
+  @include effect-slide(top, $toolbar-height, 2s);
+
+  .left-box {
+    position: relative;
+    height: $toolbar_height;
+    width: max-content;
+    left: 0px;
+    display: flex;
+    align-items: center;
+
+    .title {
+      margin: 20px;
+      @include effect-appear(3s);
+    }
+
+    .logo-img {
+      width: 100px;
+      margin-left: 20px;
+    }
+
+    .toolbar-btn {
+      position: relative;
+
+      .label_button {
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.right-box {
+  position: absolute;
+  height: $toolbar_height;
+  width: max-content;
+  right: 20px;
+  top: 0;
+  display: flex;
+  align-items: center;
+
+  button {
+    @include effect-appear(3s);
+  }
+}
