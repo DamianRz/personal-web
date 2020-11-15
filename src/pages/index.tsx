@@ -14,7 +14,6 @@ import { WorkBox } from '../components/main-page/works-box';
 import '../theme/page.scss';
 import './index.scss';
 import { RecommendationsBox } from '../components/main-page/recommendations-box';
-import { HomeFooter } from '../components/main-page/home-footer/home-footer';
 
 
 const IndexPage = () => {
@@ -54,9 +53,6 @@ const IndexPage = () => {
         <RecommendationsBox
           title={t('recommendations.title')}
           items={RECOMMENDATIONS} />
-
-
-        <HomeFooter title="" subtitle="" />
 
       </div>
     </>
