@@ -14,11 +14,6 @@ export const PAGE_INFO = {
 
 export const SOCIALS: IVerticalToolbarItem[] = [
   {
-    icon: AiOutlineInstagram,
-    label: '@damianezetiel',
-    href: 'https://www.instagram.com/damianezetiel/'
-  },
-  {
     icon: AiOutlineLinkedin,
     label: 'Damian Rodriguez',
     href: 'https://www.linkedin.com/in/damianrz/'
@@ -27,6 +22,11 @@ export const SOCIALS: IVerticalToolbarItem[] = [
     icon: AiFillGithub,
     label: 'DamianRz',
     href: 'https://github.com/DamianRz'
+  },
+  {
+    icon: AiOutlineInstagram,
+    label: '@damianezetiel',
+    href: 'https://www.instagram.com/damianezetiel/'
   },
 ]
 

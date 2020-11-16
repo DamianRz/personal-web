@@ -10,14 +10,11 @@ export const EN_DICTIONARY = {
     // ABOUT
     'aboutme': 'About Me',
     'aboutme.text': `
-        I am a software developer, specialized in Frontend Developer, although also
-        i aspire to become Fullstack Developer.
-        
-        I was born in Montevideo, Uruguay and since I was young I like everything related to
-        technology, although among my passions is reading, music and sports.
-
-        I am always aware of the latest news from the digital world, there is not a day that is not
-        studying something to implement in my projects and advance my personal aspirations.
+    I am a software developer, specialized in Frontend Development, although I also aspire to become a Fullstack Developer. 
+    I was born in Montevideo, Uruguay and since I was young I like everything related to technology, 
+    although I also have non- tech passions such as reading, music and sports. 
+    I am always aware of the latest news from the tech world and I try hard to stay up-to-date with current industry trends, 
+    there is not a day that I am not studying something to implement in my projects and advance my personal aspirations
     `,
     // TECH BOX
     'tech.title': 'Technologies',
@@ -56,14 +53,12 @@ export const ES_DICTIONARY = {
     'night': 'noche',
     // ABOUT
     'aboutme': 'Acerca de Mi',
-    'aboutme.text': `Soy desarrollador de software, especializado en Frontend Developer, auque tambien
-aspiro a convertirme a Fullstack Developer.
-
-Naci en Montevideo, Uruguay y desde joven me gusta todo lo relacionado a la
-tecnologia, aunque entre mis pasiones se encuentra la lectura, la musica y el deporte.
-
-Siempre estoy al tanto de las últimas noticias del mundo digital, no hay dia que no esté
-estudiando algo para implementar en mis proyectos y avanzar en mis aspiraciones personales.
+    'aboutme.text': `
+    Soy desarrollador de software, especializado en Desarrollo Frontend, aunque también aspiro a convertirme en Fullstack Developer. 
+    Nací en Montevideo, Uruguay y desde joven me gusta todo lo relacionado con la tecnología, 
+    aunque también tengo pasiones no tecnológicas como la lectura, la música y el deporte. 
+    Siempre estoy al tanto de las últimas noticias del mundo tecnológico y me esfuerzo mucho por estar al día con las tendencias actuales de la industria, 
+    no hay un día que no esté estudiando algo para implementar en mis proyectos y avanzar en mis aspiraciones personales.
     `,
     // TECH BOX
     'tech.title': 'Tecnologías',
