@@ -11,14 +11,6 @@ export const Point = () => {
 
     let window = useWindowSize().size;
 
-    useEffect(() => {
-        while (true) {
-            setTimeout(() => {
-                setX(Math.floor(Math.random() * window.width) + 1)
-                setY(Math.floor(Math.random() * window.height) + 1)
-            }, 1000);
-        }
-    }, [])
 
 
     // const getPosition = () => {

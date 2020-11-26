@@ -35,9 +35,7 @@ const IndexPage = () => {
           title={t('home.socials')}
         />
 
-
         <Banner />
-        {/* <Lines /> */}
 
         <AboutUsCard
           title={t('aboutme')}

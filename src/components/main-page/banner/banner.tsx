@@ -27,22 +27,32 @@ export const Banner = () => {
       className="card-banner"
       dividerClassName="divider-banner"
       subtitle="Frontend Developer"
-      background="https://i.ibb.co/mJJjLXF/por-que-razon-descargaste-esta-imagen-en-tu-pc.png"
+      background="https://i.ibb.co/BT2sf2w/IMG-20200628-WA0031.jpg"
     >
       <div className="banner">
-        <ContainerPage>
 
+        {/* <div className="line-box" />
+        <div className="line-box-2" /> */}
+
+        {/* <Point x={100} y={}/> */}
+
+        {/* <hr className="line" />
+        <hr className="line" />
+        <hr className="line" />
+        <hr className="line" /> */}
+
+
+
+        <ContainerPage>
           {/* LEFT CONTENT */}
           <div className="left-content">
             <div className="pic">
-              <img src="https://i.ibb.co/XppDzDJ/dfdfdfdf.png" alt="" />
+              <img src="https://i.ibb.co/0syYXc6/pic2.png" alt="" />
               <div className="circle">
-
                 <Button style="text" className="left" icon={<FaVuejs />} />
                 <Button style="text" className="right" icon={<DiReact />} />
                 <Button style="text" className="top" icon={<AiFillHtml5 />} />
                 <Button style="text" className="bottom" icon={<DiCss3 />} />
-
               </div>
             </div>
           </div>
