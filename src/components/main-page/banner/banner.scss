@@ -5,6 +5,7 @@
 .card-banner {
   height: 100vh;
   min-height: 480px;
+  top: $toolbar-height;
 
   .banner {
     position: relative;

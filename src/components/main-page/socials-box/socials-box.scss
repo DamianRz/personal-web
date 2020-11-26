@@ -1,7 +1,9 @@
 @import '../../../theme/effects.scss';
+@import '../../../theme/screen-size.scss';
 
 .socials-box {
     @include effect-slide(left, 40px, 2s);
+    top: $toolbar-height;
 
     .vertical-toolbar {
         .button {
