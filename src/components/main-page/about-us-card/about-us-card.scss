@@ -1,9 +1,15 @@
-.about-us-card {
+.about-box {
   // height: 100vh;
+  display: flex;
+  align-items: center;
 
-  .info-box {}
-}
+  .about-us-card {
+    // height: 100vh;
 
-.sub-container-info {
-  margin-right: 50px;
+    .info-box {}
+  }
+
+  .sub-container-info {
+    margin-right: 50px;
+  }
 }

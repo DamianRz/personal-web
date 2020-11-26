@@ -47,7 +47,7 @@ export const Banner = () => {
           {/* LEFT CONTENT */}
           <div className="left-content">
             <div className="pic">
-              <img src="https://i.ibb.co/0syYXc6/pic2.png" alt="" />
+              <img src="https://i.ibb.co/4YzDQ7M/pic-3.png" alt="" />
               <div className="circle">
                 <Button style="text" className="left" icon={<FaVuejs />} />
                 <Button style="text" className="right" icon={<DiReact />} />

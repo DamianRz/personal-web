@@ -15,17 +15,19 @@ export const AboutUsCard = (props: {
   picture: string;
 }) => {
   return (
-    <Card
-      className="about-us-card"
-      title={props.title}
-      background={props.picture}
-    >
-      <ContainerPage className={`container-about-us`}>
-        <div className="left-content">
-          <Text type="text">{props.info}</Text>
-        </div>
-        <SubContainerImage img={props.picture} />
-      </ContainerPage>
-    </Card>
+    <div className="about-box">
+      <Card
+        className="about-us-card"
+        title={props.title}
+      // background={props.picture}
+      >
+        <ContainerPage className={`container-about-us`}>
+          <div className="left-content">
+            <Text type="text">{props.info}</Text>
+          </div>
+          <SubContainerImage img={props.picture} />
+        </ContainerPage>
+      </Card>
+    </div>
   );
 };
