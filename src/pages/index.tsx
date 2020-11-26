@@ -14,6 +14,8 @@ import { WorkBox } from '../components/main-page/works-box';
 import '../theme/page.scss';
 import './index.scss';
 import { RecommendationsBox } from '../components/main-page/recommendations-box';
+import { Lines } from '../components/decorators/lines';
+import { Point } from '../components/decorators/point';
 
 
 const IndexPage = () => {
@@ -27,14 +29,15 @@ const IndexPage = () => {
         <LangChooser />,
         <ThemeChooser />
       ]} />
-
       <div className={`index-page page-${getTheme()}`}>
         <SocialsBox
           socials={SOCIALS}
           title={t('home.socials')}
         />
 
+
         <Banner />
+        {/* <Lines /> */}
 
         <AboutUsCard
           title={t('aboutme')}

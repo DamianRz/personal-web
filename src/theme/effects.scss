@@ -50,6 +50,28 @@
 }
 
 
+@mixin effect-position($seconds, $loop_count, $delay) {
+    @keyframes move {
+        0% {
+            left: 0px;
+        }
+
+        50% {
+            left: random(300) + px;
+        }
+
+        100% {
+            left: 0px;
+        }
+    }
+
+    animation-name: move;
+    animation-delay: $delay;
+    animation-duration: $seconds;
+    animation-iteration-count: $loop_count;
+}
+
+
 @mixin image-scale($seconds, $loop_count) {
     @keyframes scale {
         0% {

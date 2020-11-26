@@ -12,6 +12,7 @@ import { DiCss3, DiReact } from 'react-icons/di';
 import { AiFillHtml5 } from 'react-icons/ai';
 import './banner.scss';
 import './banner-mobile.scss';
+import { Point } from '../../decorators/point';
 
 
 
@@ -34,7 +35,7 @@ export const Banner = () => {
           {/* LEFT CONTENT */}
           <div className="left-content">
             <div className="pic">
-              <img src="https://i.ibb.co/PMCVpPp/pic.png" alt="" />
+              <img src="https://i.ibb.co/XppDzDJ/dfdfdfdf.png" alt="" />
               <div className="circle">
 
                 <Button style="text" className="left" icon={<FaVuejs />} />

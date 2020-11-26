@@ -1,0 +1,11 @@
+@import '../../../theme/colors.scss';
+
+.line-box {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border-style: dotted;
+    border-color: $cool-color;
+    border-top-right-radius: 50%;
+
+}

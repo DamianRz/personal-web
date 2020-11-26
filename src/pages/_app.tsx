@@ -4,7 +4,7 @@ import { LANG_DATA_STORAGE, THEME_DATA_STORAGE } from '../types/StorageData.type
 import { USER_DATA_STORAGE } from '../types/StorageData.type';
 import { UserProvider } from '../contexts/UserContext';
 import { ThemeProvider } from '../contexts/ThemeContext';
-import { THEME_DARK } from '../types/Themes.type';
+import { THEME_DARK, THEME_LIGHT } from '../types/Themes.type';
 import './app.scss';
 import { LangProvider } from '../contexts/LangContext';
 const App: FC<{ Component: any; pageProps: any }> = ({
@@ -15,7 +15,7 @@ const App: FC<{ Component: any; pageProps: any }> = ({
 
   return (
     <div>
-      <ThemeProvider value={store.get(THEME_DATA_STORAGE) || THEME_DARK}>
+      <ThemeProvider value={store.get(THEME_DATA_STORAGE) || THEME_LIGHT}>
         <ButtonProvider disabled={false}>
           <UserProvider value={store.get(USER_DATA_STORAGE) || null}>
             <LangProvider value={store.get(LANG_DATA_STORAGE)}>
