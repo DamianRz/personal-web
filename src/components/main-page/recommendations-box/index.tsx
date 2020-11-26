@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import "../../../utils/i18n/i18n";
 import { Button } from '../../button';
 import { Card } from '../../card';
-import { CircleRotator } from '../../decorators/circle-rotator';
+// import { CircleRotator } from '../../decorators/circle-rotator';
 import { Slider } from '../../slider';
 import { ContainerPage, SubContainerImage } from '../../test/container-page/container-page';
 import { Text } from '../../text';
@@ -30,7 +30,7 @@ export const RecommendationsBox = (props: {
             return (
                 <div className="recommendation">
                     <div className="pic-box">
-                        <CircleRotator className="circle" size={110} />
+                        {/* <CircleRotator className="circle" size={110} /> */}
                         <img src={item.pic} className="pic" alt="" />
                     </div>
 

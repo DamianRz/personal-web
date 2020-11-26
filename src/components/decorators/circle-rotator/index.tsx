@@ -1,26 +1,27 @@
 import React, { ReactElement } from 'react';
+import { AiFillHtml5 } from 'react-icons/ai';
+import { DiCss3, DiReact } from 'react-icons/di';
+import { FaVuejs } from 'react-icons/fa';
+import { Button } from '../../button';
 import { Text } from '../../text';
 import './circle-rotator.scss';
 
 export const CircleRotator = (props: {
-    things?: any[],
+    items?: any[],
     size?: number,
     children?: ReactElement,
     className?: string,
 }) => {
     return (
-        <div
-            className={`circle-rotator ${props.className}`}
-            style={{ width: `${props.size}px`, height: `${props.size}px` }}
-        >
-            {
-                props.things && props.things.map((item, i) => {
-                    return typeof (item) === 'string' && (
-                        <Text key={i} type="text" className={`orbital-thing-${i} effect-rotate`}>{item}</Text>
-                    ) || item
-                })
-            }
-
-        </div>
+        <ul className='circle-container'>
+            {props.items && props.items.map((item, i) => {
+                return <li key={i}>{item}</li>
+            })}
+            {props.children && (
+                <div className="content">
+                    {props.children}
+                </div>
+            )}
+        </ul>
     )
 }

@@ -13,6 +13,7 @@ import { AiFillHtml5 } from 'react-icons/ai';
 import './banner.scss';
 import './banner-mobile.scss';
 import { Point } from '../../decorators/point';
+import { CircleRotator } from '../../decorators/circle-rotator';
 
 
 
@@ -31,23 +32,14 @@ export const Banner = () => {
     >
       <div className="banner">
 
-        {/* <div className="line-box" />
-        <div className="line-box-2" /> */}
-
-        {/* <Point x={100} y={}/> */}
-
-        {/* <hr className="line" />
-        <hr className="line" />
-        <hr className="line" />
-        <hr className="line" /> */}
-
-
+        {/* <CircleRotator items={[<FaVuejs />, <DiReact />, <AiFillHtml5 />, <DiCss3 />]}>
+        </CircleRotator> */}
 
         <ContainerPage>
           {/* LEFT CONTENT */}
           <div className="left-content">
             <div className="pic">
-              <img src="https://i.ibb.co/4YzDQ7M/pic-3.png" alt="" />
+              <img src="https://i.ibb.co/XppDzDJ/dfdfdfdf.png" alt="" />
               <div className="circle">
                 <Button style="text" className="left" icon={<FaVuejs />} />
                 <Button style="text" className="right" icon={<DiReact />} />
