@@ -16,6 +16,6 @@
     }
 
     .appear {
-        @include effect-pulse(random(10)+s, infinite);
+        @include effect-pulse(10s, infinite);
     }
 }
