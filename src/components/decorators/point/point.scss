@@ -5,11 +5,9 @@
     position: absolute;
     width: max-content;
     height: max-content;
-    // @include effect-position(5s, infinite, 2s); // background-color: red;
-    // animation-timing-function: cubic-bezier(0, 1, 1, 0);
 
     p {
-        color: $cool-color; //$cool-color;
+        color: $cool-color;
         padding: 0;
         margin: 0;
         opacity: .2;

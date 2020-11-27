@@ -54,7 +54,7 @@ const IndexPage = () => {
           background="https://i.ibb.co/hWX7djM/xd.png"
         />
 
-        {/* <WorkBox title={t('works.title')} works={WORKS} /> */}
+        <WorkBox title={t('works.title')} works={WORKS} />
 
         <RecommendationsBox
           title={t('recommendations.title')}
