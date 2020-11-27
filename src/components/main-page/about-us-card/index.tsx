@@ -8,6 +8,7 @@ import { Card } from '../../card';
 import './about-us-card.scss';
 import './about-us-card-mobile.scss';
 import { Text } from '../../text';
+import { Particles } from '../../decorators/particles';
 
 export const AboutUsCard = (props: {
   title: string;
@@ -21,6 +22,7 @@ export const AboutUsCard = (props: {
         title={props.title}
       // background={props.picture}
       >
+        <Particles total={30} maxY={300} />
         <ContainerPage className={`container-about-us`}>
           <div className="left-content">
             <Text type="text">{props.info}</Text>

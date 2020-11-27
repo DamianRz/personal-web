@@ -31,6 +31,30 @@
 }
 
 
+
+@mixin effect-pulse($seconds, $loop_count) {
+    @keyframes pulse {
+
+        0% {
+            opacity: .1;
+        }
+
+        50% {
+            opacity: .4;
+        }
+
+        100% {
+            opacity: .1;
+        }
+    }
+
+    animation-name: pulse;
+    animation-duration: $seconds;
+    animation-iteration-count: $loop_count;
+}
+
+
+
 @mixin effect-rotate($seconds, $loop_count, $delay) {
 
     @keyframes rotation {
@@ -130,9 +154,9 @@ keyframe animation
     padding: 0;
     border-radius: 50%;
     list-style: none;
-    border-style: dotted;
-    border-color: $warm-color;
-    opacity: .5;
+    // border-style: dotted;
+    // border-color: $warm-color;
+    // opacity: .2;
 
     >* {
         display: block;

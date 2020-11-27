@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import "../../../utils/i18n/i18n";
 import { Button } from '../../button';
 import { Card } from '../../card';
+import { Particles } from '../../decorators/particles';
 // import { CircleRotator } from '../../decorators/circle-rotator';
 import { Slider } from '../../slider';
 import { ContainerPage, SubContainerImage } from '../../test/container-page/container-page';
@@ -28,22 +29,22 @@ export const RecommendationsBox = (props: {
     const getSteps = () => {
         return props.items.map((item, i) => {
             return (
-                <div className="recommendation">
-                    <div className="pic-box">
-                        {/* <CircleRotator className="circle" size={110} /> */}
-                        <img src={item.pic} className="pic" alt="" />
+                <>
+                    <div className="recommendation">
+                        <div className="pic-box">
+                            {/* <CircleRotator className="circle" size={110} /> */}
+                            <img src={item.pic} className="pic" alt="" />
+                        </div>
+                        <Text type="text" color="primary" className="name">{item.name}</Text>
+                        <Text type="text" className="review">{t(item.review)}</Text>
+                        <Button
+                            style="text"
+                            color="primary"
+                            label={t('reco.goto_linkedin')}
+                            href={item.url}
+                        />
                     </div>
-
-
-                    <Text type="text" color="primary" className="name">{item.name}</Text>
-                    <Text type="text" className="review">{t(item.review)}</Text>
-                    <Button
-                        style="text"
-                        color="primary"
-                        label={t('reco.goto_linkedin')}
-                        href={item.url}
-                    />
-                </div>
+                </>
             )
         })
     }
@@ -53,6 +54,7 @@ export const RecommendationsBox = (props: {
             title={props.title}
             className="recommendations-card"
         >
+            <Particles total={30} maxY={300} />
             <Slider arrows={false} steps={getSteps()} />
         </Card>
     )

@@ -14,6 +14,7 @@ import './banner.scss';
 import './banner-mobile.scss';
 import { Point } from '../../decorators/point';
 import { CircleRotator } from '../../decorators/circle-rotator';
+import { Particles } from '../../decorators/particles';
 
 
 
@@ -21,6 +22,12 @@ export const Banner = () => {
 
   const { t } = useTranslation();
   const { getTheme, } = useContext(ThemeContext);
+
+
+
+
+
+
 
   return (
     <Card
@@ -31,15 +38,15 @@ export const Banner = () => {
       background="https://i.ibb.co/BT2sf2w/IMG-20200628-WA0031.jpg"
     >
       <div className="banner">
-
-        {/* <CircleRotator items={[<FaVuejs />, <DiReact />, <AiFillHtml5 />, <DiCss3 />]}>
-        </CircleRotator> */}
+        {/* <CircleRotator
+          className="cirlce-1"
+          items={[<FaVuejs />, <DiReact />, <AiFillHtml5 />, <DiCss3 />]} /> */}
 
         <ContainerPage>
           {/* LEFT CONTENT */}
           <div className="left-content">
             <div className="pic">
-              <img src="https://i.ibb.co/XppDzDJ/dfdfdfdf.png" alt="" />
+              <img src="https://i.ibb.co/XLKyNQt/pic.png" alt="" />
               <div className="circle">
                 <Button style="text" className="left" icon={<FaVuejs />} />
                 <Button style="text" className="right" icon={<DiReact />} />

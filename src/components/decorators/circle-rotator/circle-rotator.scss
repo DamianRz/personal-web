@@ -2,7 +2,8 @@
 @import '../../../theme/effects.scss';
 
 .circle-container {
-    @include on-circle($item-count: 4, $circle-size: 10em, $item-size: 20px);
+    @include on-circle($item-count: 4, $circle-size: 5em, $item-size: 20px);
+    @include effect-rotate(20s, infinite, 5s);
 
     svg {
         display: block;
@@ -10,6 +11,8 @@
         border-radius: 50%;
         color: $cool-color;
         transition: .15s;
+        opacity: .5;
+        @include effect-rotate(5s, infinite, 2s);
 
         &:hover,
         &:active {

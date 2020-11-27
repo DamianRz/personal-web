@@ -16,6 +16,7 @@ import './index.scss';
 import { RecommendationsBox } from '../components/main-page/recommendations-box';
 import { Lines } from '../components/decorators/lines';
 import { Point } from '../components/decorators/point';
+import { Particles } from '../components/decorators/particles';
 
 
 const IndexPage = () => {
@@ -29,7 +30,11 @@ const IndexPage = () => {
         <LangChooser />,
         <ThemeChooser />
       ]} />
+
       <div className={`index-page page-${getTheme()}`}>
+
+        <Particles total={30} />
+
         <SocialsBox
           socials={SOCIALS}
           title={t('home.socials')}

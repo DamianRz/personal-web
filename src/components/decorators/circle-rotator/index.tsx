@@ -13,7 +13,7 @@ export const CircleRotator = (props: {
     className?: string,
 }) => {
     return (
-        <ul className='circle-container'>
+        <ul className={`circle-container ${props.className}`}>
             {props.items && props.items.map((item, i) => {
                 return <li key={i}>{item}</li>
             })}
