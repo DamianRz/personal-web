@@ -10,7 +10,7 @@ export const EN_DICTIONARY = {
     // ABOUT
     'aboutme': 'About Me',
     'aboutme.text': `
-    I am a software developer, specialized in Frontend Development, although I also aspire to become a Fullstack Developer. 
+    I am a software developer, specialized in Frontend / Backend Development. 
     I was born in Montevideo, Uruguay and since I was young I like everything related to technology, 
     although I also have non- tech passions such as reading, music and sports. 
     I am always aware of the latest news from the tech world and I try hard to stay up-to-date with current industry trends, 
@@ -27,6 +27,8 @@ export const EN_DICTIONARY = {
     Using Electron, VueJs, Typescript.`,
 
     'work.go': 'See the work',
+    'work.subtitle': "See more in my Github account",
+    
     // RECOMMENDATIONS
     'recommendations.title': 'Recommendations',
     'reco.goto_linkedin': 'See in Linkedin',
@@ -48,13 +50,13 @@ export const ES_DICTIONARY = {
     'toolbar.theme': 'Seleccione un tema',
     // HOME 
     'home.socials': 'contacto',
-    'home.motto': `{ \nmanten la calma\n& _$PR0GRAMA\ncada \n}`,
-    'day': 'dia',
-    'night': 'noche',
+    'home.motto': `{\nkeep calm\n&_$C0DE\nevery \n}`,
+    'day': 'day',
+    'night': 'night',
     // ABOUT
     'aboutme': 'Acerca de Mi',
     'aboutme.text': `
-    Soy desarrollador de software, especializado en Desarrollo Frontend, aunque también aspiro a convertirme en Fullstack Developer. 
+    Soy desarrollador de software, especializado en Desarrollo Frontend y Backend. 
     Nací en Montevideo, Uruguay y desde joven me gusta todo lo relacionado con la tecnología, 
     aunque también tengo pasiones no tecnológicas como la lectura, la música y el deporte. 
     Siempre estoy al tanto de las últimas noticias del mundo tecnológico y me esfuerzo mucho por estar al día con las tendencias actuales de la industria, 
@@ -71,6 +73,7 @@ export const ES_DICTIONARY = {
     Utilizando Electron, VueJs, Typescript.`,
 
     'work.go': 'Ver el trabajo',
+    'work.subtitle': 'Para ver más proyectos, acceda a mi cuenta de Github donde tendrá más informacián acerca de mis desarrollos personales',
     // RECOMMENDATIONS
     'recommendations.title': 'Recomendaciones',
     'reco.goto_linkedin': 'Ver en Linkedin',

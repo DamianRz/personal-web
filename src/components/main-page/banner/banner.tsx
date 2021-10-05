@@ -31,10 +31,10 @@ export const Banner = () => {
 
   return (
     <Card
-      title="DamianRz"
+      title="Damián Rodríguez"
       className="card-banner"
       dividerClassName="divider-banner"
-      subtitle="Frontend Developer"
+      subtitle="FullStack Developer"
       background="https://i.ibb.co/BT2sf2w/IMG-20200628-WA0031.jpg"
     >
       <div className="banner">

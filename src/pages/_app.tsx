@@ -15,7 +15,7 @@ const App: FC<{ Component: any; pageProps: any }> = ({
 
   return (
     <div>
-      <ThemeProvider value={store.get(THEME_DATA_STORAGE) || THEME_LIGHT}>
+      <ThemeProvider value={store.get(THEME_DATA_STORAGE) || THEME_DARK}>
         <ButtonProvider disabled={false}>
           <UserProvider value={store.get(USER_DATA_STORAGE) || null}>
             <LangProvider value={store.get(LANG_DATA_STORAGE)}>

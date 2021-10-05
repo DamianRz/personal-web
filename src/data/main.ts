@@ -8,7 +8,7 @@ import { IRecomendationItem } from "../components/main-page/recommendations-box"
 
 export const PAGE_INFO = {
   aboutme: {
-    img: 'https://instagram.fmvd1-1.fna.fbcdn.net/v/t51.2885-15/e35/130163315_441812233474656_1945173941257275397_n.jpg?tp=1&_nc_ht=instagram.fmvd1-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=zScrrO4gj9UAX8wTr5a&oh=a17c326f00eadafa88744926dd55c734&oe=6077F2C6',
+    img: 'https://scontent.fmvd2-1.fna.fbcdn.net/v/t1.6435-9/105856539_1306752363049489_6016767599501592221_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=e3f864&_nc_ohc=WtWLi4WLpjUAX9j4dEM&_nc_ht=scontent.fmvd2-1.fna&oh=a996fe00ab2e368283b8117b1b91da2f&oe=61837E21',
   }
 };
 

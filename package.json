@@ -4,7 +4,7 @@
   "description": "DamianRz web",
   "main": "dist/index.js",
   "engines": {
-    "node": "12.x"
+    "node": "14.x"
   },
   "scripts": {
     "dev": "next",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zerobyone-apis/Front_Art_experience_React.git"
+    "url": ""
   },
   "author": "DamianRz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zerobyone-apis/Front_Art_experience_React/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/zerobyone-apis/Front_Art_experience_React/#README.md",
+  "homepage": "",
   "devDependencies": {
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",

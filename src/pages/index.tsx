@@ -26,7 +26,7 @@ const IndexPage = () => {
 
   return (
     <>
-      <Toolbar title="TheRefactorMan" rightItems={[
+      <Toolbar title="mr-refactor" rightItems={[
         <LangChooser />,
         <ThemeChooser />
       ]} />
